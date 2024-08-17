@@ -21,8 +21,74 @@ layout: default
         {% endif %}
     </style>
     <div id="main" class="call-out call-out_img">
-        <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
+        <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>" }} </h1>
     </div>
-    {% capture _blog %}{% include blog/blog.liquid %}{% endcapture %}
-    {{ _blog | split: " " | join: " "}}
+    <div class=posts>
+         <div class="post-teaser">
+        <h2>Upcoming Game</h2>
+        <ul>
+            {% assign now = 'now' | date: "%s" %} <!-- Current timestamp in seconds -->
+            
+            <!-- Initialize a variable to hold the next upcoming game -->
+            {% assign next_game = null %}
+            
+            <!-- Iterate over games to find the next upcoming one -->
+            {% for game in site.games %}
+                {% assign game_date = game.date | date: "%s" %}
+                {% if game_date > now %}
+                    {% assign next_game = game %}
+                    {% break %} <!-- Exit loop once the first upcoming game is found -->
+                {% endif %}
+            {% endfor %}
+            
+            {% if next_game != null %}
+                <li>
+                    <p>{{ next_game.date | date: "%B %d, %I:%M %p" }}</p><br>
+                    <p>vs <b>{{ next_game.opponent }}</b></p><br>
+                    <p>at {{ next_game.location }}</p>
+                </li>
+            {% else %}
+                <li>No upcoming games</li>
+            {% endif %}
+            </ul>
+        </div>  
+    </div>
+   
+    <div class="posts">
+        {% for post in site.posts limit:3 %}
+            <div class="post-teaser">
+            {% if post.thumbnail %}
+            <div class="post-img">
+                <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
+                    <img alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}">
+                </a>
+            </div>
+            {% endif %}
+            <span>
+            <header>
+                <h1>
+                <a aria-label="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title }}
+                </a>
+                </h1>
+                {% include blog/post_info.liquid author=post.author date=post.date %}
+            </header>
+            {% if site.excerpt or site.theme_settings.excerpt %}
+                <div class="excerpt">
+                    {% if site.excerpt == "truncate" %}
+                        {{ post.content | strip_html | truncate: '250' | escape }}
+                    {% else %}
+                        {{ post.excerpt | strip_html | escape }}
+                    {% endif %}
+                </div>
+            {% endif %}
+            </span>
+            </div>
+        {% endfor %}
+    </div>
+
+{% comment %}
+    {% capture _blog %}{% include blog/blog.liquid %}{% endcapture %} 
+    {{ _blog | split: " " | join: " " }} 
+{% endcomment %}
 </div>
