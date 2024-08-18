@@ -2,6 +2,7 @@
 ---
 
 @import "type-on-strap";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Pirata+One&display=swap');
 
 h1 {
     text-wrap: balance;
@@ -13,4 +14,41 @@ h1 {
 
 .upcoming-games {
     padding: 3% 4%;
+}
+
+#main>h1  {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#next-game {
+    background-color: #73000a;
+    text-align: center;
+    color: #e7f3f4;
+    padding: 0;
+}
+
+#ul-next-game {
+    list-style-type: none;
+}
+
+#h2-next-game {
+    font-size: 1.17em;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0.25em;
+    text-decoration: underline;
+}
+
+p, a {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+
 }
