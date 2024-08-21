@@ -72,6 +72,14 @@ a.button {
   }
 }
 
+.button-inverse {
+  @extend .button;
+  background-color: #73000a;
+  color: var(--base07);
+  text-align: center;
+  border: 1px solid var(--link);
+}
+
 .body-link {
   &:hover {
     text-decoration: underline;

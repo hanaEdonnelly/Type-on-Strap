@@ -48,6 +48,9 @@ html, html[data-theme="light"] {
   --h5: #262626;
   --h6: #262626;
   --border: rgba(0, 0, 0, 0.2);
+  --table-row-even: #f2f2f2; /* Light gray for even rows in light theme */
+  --table-row-odd: #ffffff;  /* White for odd rows in light theme */
+  --table-head-bg: #73000a;
 }
 
 html[data-theme="dark"] {
@@ -73,6 +76,10 @@ html[data-theme="dark"] {
   --border: rgba(255, 255, 255, 0.5);
   --cusdis--color-text-default: var(--text);
   --cusdis--color-comment-username-text: var(--link);
+  --table-row-even: #2a2e35; /* Darker gray for even rows in dark theme */
+  --table-row-odd: #22272e;  /* Dark background for odd rows in dark theme */
+  --table-head-bg: #73000a;
+  
 }
 
 /* BASE16 CODE HIGHLIGHT */

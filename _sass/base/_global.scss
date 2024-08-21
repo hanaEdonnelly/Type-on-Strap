@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 1.95em;
 }
 
 h3 {
@@ -293,4 +293,27 @@ details {
   font-weight: 200;
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+table th, table td {
+  border: 1px solid var(--border);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--table-row-even);
+}
+
+table tr:nth-child(odd) {
+  background-color: var(--table-row-odd);
+}
+
+table th {
+  background-color: var(--table-head-bg);
+  color: #fff
+}
+
+table {
+  border-radius: 5px;
+  width: 100%;
+  border-collapse: separate;
 }
