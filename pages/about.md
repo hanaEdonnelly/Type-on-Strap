@@ -13,6 +13,8 @@ USC Women's Hockey was founded in 2022, playing our first season during the 2023
 
 We are members of <a href="https://www.collegehockeysouth.com/">College Hockey South (CHS)</a> who is governed by the <a href="https://www.aaucollegehockey.org/">Amateur Athletic Union (AAU)</a>. 
 
-As a student-run organization, our club sport operates independently and does not receive funding comparable to that of NCAA sports such as football. We rely significantly on community support and contributions to support our team. Thank you to all of our supporters for helping us keep our team going.
+As a student-run organization, our club sport operates independently and does not receive funding comparable to that of NCAA sports such as football. We rely significantly on community support and contributions to support our team.
+
+Thank you to all of our supporters for helping us keep our team going.
 
 <b>Go Gamecocks!</b>

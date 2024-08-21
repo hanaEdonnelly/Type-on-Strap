@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Pirata+One&display=swap');
+@import 'layouts/_blog.scss';
 
 .upcoming-games {
     padding: 3% 4%;
@@ -26,4 +27,10 @@
 
 .posts > .post-teaser em {
     font-style: normal; // Removes italic styling
+  }
+
+#news {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: none;
+    margin-top: 5%;
   }
