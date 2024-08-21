@@ -1,0 +1,9 @@
+{% for player in site.roster %}
+    <ul>
+        <li>
+            <p>{{ player.title}}<br></p>
+            <p>Hometown: {{ player.hometown }}<br></p>
+            <p>{{ player.fact }}</p>
+        </li>
+    </ul>
+{% endfor %}

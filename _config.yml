@@ -13,7 +13,7 @@ header_text: The Home of Gamecock Hockey  # Change Blog header text
 header_feature_image: assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  Created by <a href='https:hana.gallery'>Hana Donnelly</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
@@ -49,6 +49,9 @@ collections:
   games: 
     output: true
     permalink: /games/:name
+  roster:
+    output: true 
+    permalink: /roster/:title/
 
 
 # BUILD SETTINGS

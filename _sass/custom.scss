@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Pirata+One&display=swap');
+
+.upcoming-games {
+    padding: 3% 4%;
+}
+
+#next-game {
+    background-color: #73000a;
+    text-align: center;
+    color: #e7f3f4;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#ul-next-game {
+    list-style-type: none;
+}
+
+#h2-next-game {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0.25em;
+    text-decoration: underline;
+}
+
+.posts > .post-teaser em {
+    font-style: normal; // Removes italic styling
+  }

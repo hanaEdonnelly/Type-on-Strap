@@ -5,10 +5,14 @@ permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
+Our mission at Carolina Women’s Club Ice Hockey is to foster an inclusive and welcoming community where women of all skill levels come together to play hockey. Through our organization, we aim to break down barriers, promote inclusivity, and ensure a welcoming and fun atmosphere on the ice. Our members are dedicated to creating a fun and supporting atmosphere encouraging teamwork, friendship, and love of the game.
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+<hr>
 
-Head over to the [theme's documentation](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+USC Women's Hockey was founded in 2022, playing our first season during the 2023-2024 academic year. 
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+We are members of <a href="https://www.collegehockeysouth.com/">College Hockey South (CHS)</a> who is governed by the <a href="https://www.aaucollegehockey.org/">Amateur Athletic Union (AAU)</a>. 
+
+As a student-run organization, our club sport operates independently and does not receive funding comparable to that of NCAA sports such as football. We rely significantly on community support and contributions to support our team. Thank you to all of our supporters for helping us keep our team going.
+
+<b>Go Gamecocks!</b>
