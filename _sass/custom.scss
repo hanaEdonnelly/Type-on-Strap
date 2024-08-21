@@ -34,3 +34,22 @@
     border-bottom: none;
     margin-top: 5%;
   }
+
+.player-list {
+    list-style-type: none; // Remove default bullets
+    padding: 0; // Remove default padding
+    margin: 0; // Remove default margin
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; // Adjust as needed
+}
+
+.player-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 250px; // Adjust width as needed
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+}
