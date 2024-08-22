@@ -102,6 +102,9 @@ summary {
   p, li, td {
     font-size: 0.8em;
   }
+  #footer-text {
+    font-size: 0.7em;
+  }
 
   iframe,
   img,
@@ -135,9 +138,11 @@ summary {
   li li * {
     font-size: 1em;
   }
-
   table {
     overflow-x: scroll;
+  }
+  #footer-text {
+    font-size: 0.5em;
   }
 }
 

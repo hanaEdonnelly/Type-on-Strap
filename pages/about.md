@@ -2,11 +2,17 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
 ---
+  <!--<div class="banner">
+        <h3>Sponsor us here!</h3>
+    </div>-->
+<hr>
 Our mission at Carolina Women’s Club Ice Hockey is to foster an inclusive and welcoming community where women of all skill levels come together to play hockey. Through our organization, we aim to break down barriers, promote inclusivity, and ensure a welcoming and fun atmosphere on the ice. Our members are dedicated to creating a fun and supporting atmosphere encouraging teamwork, friendship, and love of the game.
-
+<div class="banner">
+            <h3>Sponsor us here!</h3>
+            <p>We'd love for you or your company to sponsor us.</p>
+            <p>Email us at carolinawhockey@gmail.com for more information.</p>
+        </div>
 <hr>
 
 USC Women's Hockey was founded in 2022, playing our first season during the 2023-2024 academic year. 

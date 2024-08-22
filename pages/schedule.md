@@ -2,8 +2,7 @@
 layout: page
 title: Schedule
 permalink: /schedule/
-feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
+position: 1
 ---
   <div class="posts">
     <div class="table-container">
