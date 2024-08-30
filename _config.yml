@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
 url: "https://carolinawomenshockey.com"
-
+baseurl: ""
 # THEME-SPECIFIC CONFIGURATION
 title: USC Women's Hockey                                  # site's title
 description: "The official website of Lady Gamecocks Hockey"      # used by search engines
