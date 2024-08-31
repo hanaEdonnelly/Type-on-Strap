@@ -3,7 +3,6 @@ layout: page
 title: Scores & Standings
 permalink: /scores-standings/
 feature-img: "assets/img/feature-img/puck-2023.jpg"
-position: 2
 ---
 <div class="posts">
     <div class="posts-teaser">

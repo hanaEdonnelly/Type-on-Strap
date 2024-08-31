@@ -2,9 +2,15 @@
 layout: page
 title: News
 permalink: /news/
+pagination:
+  enabled: true
+  permalink: "/news/page:num/"
+  sort_field: "date"
+  sort_reverse: true
 ---
 
-<div class="posts">
+
+<div id="posts">
     {% for post in paginator.posts %}
         <div class="post-teaser">
             <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>

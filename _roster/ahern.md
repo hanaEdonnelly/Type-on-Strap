@@ -6,5 +6,6 @@ order: 56
 feature-img: 
 img: 
 hometown: Cape Cod, MA
-fact: My first name is Ursula and I've been graciously given the nickname "Sea Monster" on the ice
+fact: Welcome to the Carolina Women's Hockey Team; I'm Kelly and that's all you need to know
 ---
+<!-- My first name is Ursula and I've been graciously given the nickname "Sea Monster" on the ice -->

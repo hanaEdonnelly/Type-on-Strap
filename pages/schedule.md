@@ -2,7 +2,6 @@
 layout: page
 title: Schedule
 permalink: /schedule/
-position: 1
 ---
   <div class="posts">
     <div class="table-container">
