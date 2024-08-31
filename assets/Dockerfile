@@ -1,17 +1,24 @@
-FROM sylhare/jekyll:latest
+FROM jekyll/jekyll:latest
 LABEL maintainer="sylhare"
 LABEL image="sylhare/type-on-strap"
 
-# Create Type-on-strap Gemfile
-RUN echo "source \"https://rubygems.org\"" >> Gemfile
-RUN echo "gem 'type-on-strap', '>= 2.4.10', '< 3.0'" >> Gemfile
-RUN echo "Adding the Gemfile"
-RUN cat Gemfile
+# Set the working directory
+WORKDIR /srv/jekyll
 
-# Install the theme
-RUN bundle update
+# Copy the Gemfile and Gemfile.lock
+COPY Gemfile Gemfile.lock ./
+
+# Install the gems
 RUN bundle install
 
-# Make it accessible from outside
+# Copy the rest of your site
+COPY . .
+
+# Build the site
+RUN jekyll build
+
+# Expose the port that the site will be served on
 EXPOSE 4000
 
+# Run the Jekyll server
+CMD ["jekyll", "serve", "--watch", "--incremental"]
