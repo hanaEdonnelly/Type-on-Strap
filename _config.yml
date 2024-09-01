@@ -19,7 +19,6 @@ footer_text: >
 plugins: 
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-paginate
 
 # Blog
 excerpt: true
@@ -40,9 +39,6 @@ comments:
   utterances:
     repo: ""
     issue-term: ""
-
-paginate: 5
-paginate_path: "/news/page:num/"
 
 # PORTFOLIO
 collections:
