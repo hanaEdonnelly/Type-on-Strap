@@ -61,6 +61,3 @@ exclude:
   - ".idea"
   - "vendor/*"
   - "assets/node_modules/*"
-
-# theme: type-on-strap
-remote_theme: sylhare/Type-on-Strap
