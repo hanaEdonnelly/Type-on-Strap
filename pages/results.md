@@ -3,6 +3,7 @@ layout: page
 title: Scores & Standings
 permalink: /scores-standings/
 feature-img: "assets/img/feature-img/puck-2023.jpg"
+description: Check out the latest scores and results for the University South Carolina women's hockey team. Stay updated with current game outcomes, past results, and performance statistics to follow the team’s progress throughout the season.
 ---
 <div class="posts">
     <div class="posts-teaser">

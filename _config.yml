@@ -4,7 +4,7 @@ baseurl: ""
 
 # THEME-SPECIFIC CONFIGURATION
 title: USC Women's Hockey
-description: "The official website of Lady Gamecocks Hockey"
+description: "The official website of women's club hockey at the University of South Carolina."
 avatar:                    # Empty for no avatar in navbar
 favicon: "assets/favicon.png"
 
@@ -12,7 +12,7 @@ favicon: "assets/favicon.png"
 header_text: "The Home of Gamecock Hockey"
 header_feature_image: "assets/img/header/jerseys-back.jpg"
 header_feature_image_responsive: true
-footer_text: >
+footer_text: 
   Created by <a href='https://hana.gallery'>Hana Donnelly</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>
 
 # Plugins 
