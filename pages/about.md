@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: The official website of the University of South Carolina women's hockey team. Learn about our history, mission, and dedication to empowering student-athletes while building a strong community of fans. 
 ---
   <!--<div class="banner">
         <h3>Sponsor us here!</h3>

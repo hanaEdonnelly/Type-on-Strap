@@ -2,6 +2,7 @@
 layout: page
 title: Schedule
 permalink: /schedule/
+description: Stay up-to-date with the latest University of South Carolina women's hockey schedule. Find upcoming games, locations, and opponents and never miss a moment of the action.
 ---
   <div class="posts">
     <div class="table-container">
