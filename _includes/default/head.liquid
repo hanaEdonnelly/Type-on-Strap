@@ -74,6 +74,8 @@
     {% endunless %}
     {% seo %}
 
+    <meta name="robots" content="index, follow">
+
     <!-- RSS -->
     <link rel="alternate" type="application/atom+xml" title="{{ site.title | default: 'Title' }}" href="{{ 'feed.xml' | absolute_url }}"/>
     {% feed_meta %}
