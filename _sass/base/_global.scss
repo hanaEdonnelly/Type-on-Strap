@@ -35,9 +35,11 @@ h4,
 h5,
 h6 {
   font-family: $font-family-headings;
+  letter-spacing: $letter-spacing-headings;
   line-height: 1.3;
   margin: 0.67em 0;
   text-wrap: balance;
+  text-transform: uppercase;
 
   a {
     color: var(--text);
@@ -276,6 +278,7 @@ details {
     display: inline-block;
     cursor: pointer;
     margin-left: 0.6rem;
+    background-color: #fff;
   }
 }
 

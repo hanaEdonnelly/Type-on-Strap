@@ -3,7 +3,7 @@ layout: page
 title: News
 pagination:
   enabled: true
-description: Stay updated with the latest news and updates about the South Carolina Gamecocks women's hockey team. Get the newest information on game highlights, team announcements, and player news to keep up with the team’s activities and achievements.
+description: Stay updated with the latest news and updates from the South Carolina Gamecocks women's rugby team.
 ---
 
 
