@@ -18,7 +18,7 @@
                 
                 {% if next_game != null %}
                     <li>
-                        <p><b>{{ next_game.date | date: "%B %d @%I:%M %p" }}</b></p><br>
+                        <p><b>{{ next_game.date | date: "%B %d @ %I:%M %p" }}</b></p><br>
                         <p>vs {{ next_game.opponent }}</p><br>
                         <p>{{ next_game.location }}</p>
                     </li>
