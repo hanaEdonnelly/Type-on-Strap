@@ -2,7 +2,7 @@
 layout: page
 title: Scores & Standings
 permalink: /scores-standings/
-feature-img: "assets/img/feature-img/puck-2023.jpg"
+feature-img: ""
 description: Check out the latest scores and results for the University South Carolina women's rugby team. 
 ---
 <!--<div class="posts">
